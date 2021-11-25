@@ -1,2 +1,2 @@
 # Pagina-curso
-Prcaticas
+Practicas
