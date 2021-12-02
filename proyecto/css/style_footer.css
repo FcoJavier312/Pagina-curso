@@ -1,0 +1,36 @@
+/*Intruccion que indica que todo elemento hijo debe permanecer a la misma altura que el elemento padre*/
+body{
+	flex-wrap:wrap;
+	font-family:arial;
+}
+
+/*alinea los elementos en el footer uno seguido de otro*/
+.footer{
+	align-self: flex-end;
+	
+}
+
+/*Modifica la posicion inicial del footer, su relleno, color de fondo y su tamaño*/
+.footer{
+	margin:0;
+	padding:0;
+	background-color:#272727;
+	text-align:center;
+	width:100%;
+	
+	
+}
+
+/*Modifica la lista ordenada, permitiendo un manejo flexible, sin elemento de lista (punto)*/
+.footer ul{
+	display:flex;
+	list-style:none;
+}
+
+/*Modificacion que modifica los elementos de la lista su separacion, sin decoracion, su alineacion y su color de letra*/
+.footer li{
+	padding:12px 30px;
+	text-decoration:none;
+	float:right;
+	color:#fff;
+}

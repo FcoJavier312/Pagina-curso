@@ -1,0 +1,98 @@
+/*Modificacion del cuerpo de la pagina contacto*/
+body{
+	margin:0;
+	min-height: 100vh;
+	/*Carga de imagen, seleccion de no repeticion de imagen, cubre toda la pantalla, centra la imagen y evita que la imagen se mueva al hacer scroll*/
+	background-image:url(1.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment: fixed;
+	font-family:arial;
+	/*Nos permite manejar los componentes de mejor manera(edicion libre)*/
+	display:flex;
+	justify-content:center;
+	/*alineacion de los objetos*/
+	align-items:center;
+	color:#fff;
+	text-align:center;
+}
+
+/*Modificacion de tamaño, color, relleno, borde y fondo del formulario*/
+.contacto {
+  width:300px;
+	border:5px solid #d3d3d3;
+	margin:15px auto;
+	padding:30px;
+	background:#5EBC6A;
+	border-radius:5%;
+	color:#000;
+	height:auto;
+}
+
+/*Modificacion de posicion, relleno, tamaño de letra de las etiquetas h1 que pertenecen al formualrio*/
+.contacto h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+/*Modificacion de las etiquetas en margen, negrita, manejo como bloque y relleno*/
+.contacto label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+/*Modificacion del tamaño de las entradas de datos en tamaño y forma*/
+.contacto input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/*Modificacion de borde, fondo, quitado de linea, color de letra y tamaño de letra de las entradas de texto*/
+.contacto input[type="text"], .contacto input[type="password"], .contacto input[type="email"], .contacto select, 
+.contacto input[type="number"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+/*Modificacion de la lista desplegable sin borde, fondo, sin linea, color de letra, tamaño y tamaño de letra */
+.contacto select {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: #000;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+/*Modificacion del boton solicitar en tamaño, tipo de borde, sin linea, color de fondo, tamaño de letra, y borde redondeado*/
+.solicitar{
+	padding:5px;
+	border:none;
+	outline:none;
+	height:40px;
+	background: #389B45;
+	color:#fff;
+	font-size:18px;
+	border-radius:15px;
+}
+/*Modificacion del boton borrar en tamaño, tipo de borde, sin linea, color de fondo, tamaño de letra, y borde redondeado*/
+.borrar{
+	padding:5px;
+	border:none;
+	outline:none;
+	height:40px;
+	background: #F25634;
+	color:#fff;
+	font-size:18px;
+	border-radius:15px;
+}

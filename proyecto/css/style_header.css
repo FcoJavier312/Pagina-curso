@@ -1,0 +1,60 @@
+/*Elimina rl margen incial y el relleno, como asi establece el tipo de letra*/
+body{
+	margin: 0;
+	padding:0;
+	font-family:arial;
+}
+
+/*Modificacion al menu quitando su margen inicial, colocando hasta arriba, cambiando su tamaño, con un fondo transparente y un borde tipo boton*/
+nav{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100px;
+	padding:10px 90px;
+	box-sizing:border-box;
+	background:transparent;
+	border-bottom:1px solid #fff;
+}
+
+/*modifica el elemento que hace de logo en cuanto su tamaño de letra, de tipo negrita, con un relleno interno y externo y alineacion a la izquierda*/
+nav .logo{
+	padding:22px 20px;
+	height:80px;
+	float:left;
+	font-size:24px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/*Modificacion de la lista que nos permite colocar cada elemento un seguido de otro, quitando su margen, el estilo de lista y su relleno*/
+nav ul{
+	list-style:none;
+	float:right;
+	margin:0;
+	padding:0;
+	display:flex;
+}
+
+/*Modificaciones de tamaño, grosor de linea, color de letra, relleno y espaciado interno, tamaño de letra*/
+nav ul li a{
+	line-height:80px;
+	color:#fff;
+	padding:12px 30px;
+	text-decoration:none;
+	font-size:14 px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+/*Aplica un efecto hover de cambio de color a los objetos de la lista o menu al pasar el mouse*/
+nav ul li a:hover{
+	background: rgba(0,0,0,0.7);
+	border-radius:6 px;
+}
+
+/*Modificacion del tamaño del header*/
+.header{
+	width:100%;
+	height:50px;
+}
